@@ -1,25 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Background circle -->
-  <circle cx="50" cy="50" r="48" fill="#4F46E5"/>
+  <!-- House-shaped magnifying glass lens (the glass IS the house silhouette) -->
+  <path d="M 38,10 L 12,36 L 20,36 L 20,60 L 56,60 L 56,36 L 64,36 Z"
+        fill="#3730A3" stroke="#4F46E5" stroke-width="7" stroke-linejoin="round"/>
 
-  <!-- Magnifying glass body (centered slightly left-up) -->
-  <circle cx="43" cy="43" r="26" fill="#3730A3" stroke="white" stroke-width="5"/>
+  <!-- White door inside -->
+  <rect x="33" y="44" width="10" height="16" rx="1.5" fill="white"/>
 
-  <!-- Miniature house inside the lens -->
-  <!-- Roof triangle -->
-  <polygon points="43,25 30,38 56,38" fill="white"/>
-  <!-- House body -->
-  <rect x="31" y="37" width="24" height="17" rx="1" fill="white"/>
-  <!-- Door -->
-  <rect x="40" y="45" width="6" height="9" rx="1" fill="#3730A3"/>
-  <!-- Left window -->
-  <rect x="33" y="39" width="5" height="5" rx="0.5" fill="#6366F1"/>
-  <!-- Right window -->
-  <rect x="48" y="39" width="5" height="5" rx="0.5" fill="#6366F1"/>
-
-  <!-- Magnifying glass ring on top -->
-  <circle cx="43" cy="43" r="26" fill="none" stroke="white" stroke-width="5"/>
+  <!-- White ring on top (magnifying glass ring effect) -->
+  <path d="M 38,10 L 12,36 L 20,36 L 20,60 L 56,60 L 56,36 L 64,36 Z"
+        fill="none" stroke="white" stroke-width="7" stroke-linejoin="round"/>
 
   <!-- Handle -->
-  <line x1="63" y1="63" x2="82" y2="82" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <line x1="59" y1="63" x2="84" y2="88" stroke="#4F46E5" stroke-width="10" stroke-linecap="round"/>
+  <line x1="59" y1="63" x2="84" y2="88" stroke="white" stroke-width="6" stroke-linecap="round"/>
 </svg>
