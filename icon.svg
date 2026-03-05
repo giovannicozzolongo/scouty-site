@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#4F46E5"/>
+
+  <!-- House silhouette -->
+  <!-- Roof -->
+  <polygon points="20,48 50,18 80,48" fill="white"/>
+  <!-- House body -->
+  <rect x="27" y="48" width="46" height="32" fill="white"/>
+  <!-- Door -->
+  <rect x="42" y="62" width="16" height="18" fill="#4F46E5" rx="2"/>
+  <!-- Window -->
+  <rect x="30" y="54" width="10" height="10" fill="#4F46E5" rx="1"/>
+  <rect x="60" y="54" width="10" height="10" fill="#4F46E5" rx="1"/>
+
+  <!-- Magnifying glass overlay (bottom-right) -->
+  <!-- Glass circle -->
+  <circle cx="68" cy="68" r="14" fill="none" stroke="#FBBF24" stroke-width="4"/>
+  <!-- Glass lens fill (semi-transparent) -->
+  <circle cx="68" cy="68" r="10" fill="#FBBF24" fill-opacity="0.25"/>
+  <!-- Handle -->
+  <line x1="78" y1="78" x2="88" y2="88" stroke="#FBBF24" stroke-width="5" stroke-linecap="round"/>
+</svg>
