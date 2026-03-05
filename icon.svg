@@ -2,11 +2,11 @@
   <!-- Lente: pezzo unico, bianca, sfondo trasparente -->
   <circle cx="42" cy="42" r="28" fill="none" stroke="white" stroke-width="6"/>
 
-  <!-- Casa minimale: tetto senza sbalzo (stessa larghezza del corpo), porta ritagliata -->
+  <!-- Casa centrata nella lente, porta stretta -->
   <path fill-rule="evenodd" fill="white" d="
-    M 42,28 L 28,42 L 56,42 Z
-    M 28,42 L 56,42 L 56,55 L 28,55 Z
-    M 37,47 L 47,47 L 47,55 L 37,55 Z
+    M 42,30 L 29,43 L 55,43 Z
+    M 29,43 L 55,43 L 55,57 L 29,57 Z
+    M 39,49 L 45,49 L 45,57 L 39,57 Z
   "/>
 
   <!-- Manico -->
