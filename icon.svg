@@ -1,17 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Magnifying glass lens -->
-  <circle cx="42" cy="42" r="28" fill="#3730A3" stroke="#4F46E5" stroke-width="7"/>
+  <!-- Lente: pezzo unico, bianca, sfondo trasparente -->
+  <circle cx="42" cy="42" r="28" fill="none" stroke="white" stroke-width="6"/>
 
-  <!-- Miniature house inside the lens -->
-  <polygon points="42,22 27,38 57,38" fill="white"/>
-  <rect x="29" y="37" width="26" height="20" rx="1.5" fill="white"/>
-  <!-- Door only -->
-  <rect x="38" y="45" width="8" height="12" rx="1.5" fill="#3730A3"/>
+  <!-- Casa minimale: tetto senza sbalzo (stessa larghezza del corpo), porta ritagliata -->
+  <path fill-rule="evenodd" fill="white" d="
+    M 42,28 L 28,42 L 56,42 Z
+    M 28,42 L 56,42 L 56,55 L 28,55 Z
+    M 37,47 L 47,47 L 47,55 L 37,55 Z
+  "/>
 
-  <!-- Magnifying glass ring (on top) -->
-  <circle cx="42" cy="42" r="28" fill="none" stroke="white" stroke-width="7"/>
-
-  <!-- Handle -->
-  <line x1="64" y1="64" x2="85" y2="85" stroke="#4F46E5" stroke-width="10" stroke-linecap="round"/>
-  <line x1="64" y1="64" x2="85" y2="85" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <!-- Manico -->
+  <line x1="64" y1="64" x2="77" y2="77" stroke="white" stroke-width="6" stroke-linecap="round"/>
 </svg>
