@@ -1,23 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <style>
-    .icon { fill: white; stroke: white; }
-    @media (prefers-color-scheme: light) {
-      .icon { fill: #3730A3; stroke: #3730A3; }
-    }
-  </style>
+  <!-- Lente: sfondo indigo, bordo bianco, area esterna trasparente -->
+  <circle cx="42" cy="42" r="28" fill="#3730A3"/>
+  <circle cx="42" cy="42" r="28" fill="none" stroke="white" stroke-width="6"/>
 
-  <!-- Lente -->
-  <circle class="icon" cx="42" cy="42" r="28" fill="none" stroke-width="6"/>
-
-  <!-- Tetto -->
-  <polygon class="icon" points="42,26 29,39 55,39"/>
-
-  <!-- Corpo con angoli morbidi + porta ritagliata -->
-  <path class="icon" fill-rule="evenodd" stroke="none" d="
+  <!-- Casa bianca centrata nella lente, angoli morbidi in basso, porta ritagliata -->
+  <polygon points="42,26 29,39 55,39" fill="white"/>
+  <path fill-rule="evenodd" fill="white" d="
     M 29,38 L 55,38 L 55,51.5 Q 55,53 53.5,53 L 30.5,53 Q 29,53 29,51.5 Z
     M 38,45 L 46,45 L 46,53 L 38,53 Z
   "/>
 
   <!-- Manico -->
-  <line class="icon" x1="64" y1="64" x2="77" y2="77" fill="none" stroke-width="6" stroke-linecap="round"/>
+  <line x1="64" y1="64" x2="77" y2="77" stroke="white" stroke-width="6" stroke-linecap="round"/>
 </svg>
